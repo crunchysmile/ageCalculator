@@ -1,0 +1,152 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(40, 60, 243, 0.89);
+}
+.front-page{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.welcome{
+    font-size: 25px;
+    color: rgb(8, 189, 39);
+}
+.user-form-box{
+    margin-top: 3rem;
+    width: 80%;
+    height:100%;
+    border: 1px solid grey;
+    padding: 3px;
+}
+.top{
+    width: 80%;
+    margin: 2rem auto;
+}
+.top h3{
+    font-size:2rem;
+    font-family: sans-serif;
+}
+.top p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin-top:1rem;
+}
+.user-form{
+    width: 80%;
+    height:30vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.user-btn{
+    display: block;
+}
+.name{
+    padding: 1rem;
+    outline: none;
+}
+.birthday{
+    padding: 0.5rem;
+    outline: none;
+}
+.submit-btn{
+    padding: 0.5rem;
+    outline: none;
+    background-color: rgba(16, 233, 16, 0.637);
+}
+.output{
+    margin:2rem auto;
+    width: 80%;
+    height: auto;
+}
+.show_details_section{
+    width: 100%;
+    height: 80vh;
+    /* background-color: lawngreen; */
+    padding-top: 5vh;
+}
+h4.lived {
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(57, 15, 246);
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.show_details_main_box{
+    margin: 0 auto;
+    width: 80%;
+    height: 70%;
+    /* background-color: blue; */
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.box{
+    border-radius: 10px;
+    width: 35%;
+    height: 20%;
+    background-color: rgb(199, 20, 20);
+}
+.box-name{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(51, 5, 177);
+}
+.box-name h3{
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+.box-number{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+.output{
+    font-family: sans-serif;
+    color: rgb(15, 16, 19);
+}
+#hide{
+    display: none;
+}
+.foooter{
+    width: 100%;
+    height:25vh;
+    background-color: rgba(1, 1, 107, 0.972);
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_main_box{
+    width: 80%;
+    height:70%;
+}
+.footer_main_box a{
+    display: inline-block;
+    width: auto;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid orange; */
+   padding: 5px;
+   border-radius: 5px;
+   background-color: rgba(29, 248, 29, 0.671);
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right: 20px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="nav"></div>
+
+        <div class="front-page"> 
+
+            <div class="user-form-box">
+                <div class="top">
+                    <h3>Hi There! <br>
+                       <span class="welcome">Welcome to our Website</span> 
+                    </h3>
+                    
+                    <p>
+                        Get your live details within a secand.
+                    </p>
+                </div>
+    
+                <div class="user-form">
+                    <input type="text" name="name" id="name" class="name user-btn" placeholder="Please Enter Ur Name">
+                    <p class="notice"> &nbsp; Format : month/date/year</p>
+                    <input type="date" name="birthday" id="bdy" class="birthday user-btn">
+                    <input type="submit" value="Click to view details" class="submit-btn user-btn" onclick="showLive()">
+                </div>
+            </div>
+            
+        </div>
+ 
+        <br><br>
+        <div class="output">
+            <h2 id="sayHi"></h2>
+            <h2 id="congrats"></h2>
+        </div>
+
+        <div class="show_details_section" id="hide">
+            <h4 class="lived">You have lived your Life</h4>
+            <div class="show_details_main_box" >
+                <div class="box">
+                    <div class="box-name"><h3>Years</h3></div>
+                    <div class="box-number"><h3 id="years"></h3></div>
+                </div>
+                <div class="box">
+                    <div class="box-name"><h3>Months</h3></div>
+                    <div class="box-number" id="months"></div>
+                </div>
+                <div class="box">
+                    <div class="box-name"><h3>Days</h3></div>
+                    <div class="box-number" id="days"></div>
+                </div>
+                <div class="box">
+                    <div class="box-name"><h3>Hours</h3></div>
+                    <div class="box-number" id="hours"></div>
+                </div>
+                <div class="box">
+                    <div class="box-name"><h3>Minutes</h3></div>
+                    <div class="box-number" id="minutes"></div>
+                </div>
+                <div class="box">
+                    <div class="box-name"><h3>secands</h3></div>
+                    <div class="box-number" id="secands"></div>
+                </div>
+                <div class="box">
+                    <div class="box-name"><h3>MiliSecands</h3></div>
+                    <div class="box-number" id="miliSecands"></div>
+                </div>
+            </div>
+           
+        </div>
+        
+        <footer class="foooter">
+              <div class="footer_main_box">
+                  <h4 style="color: rgb(248, 248, 248); font-family: sans-serif;">Thanks for  using our services.</h4>
+                  <h4 style="color: rgb(248, 248, 248); font-family: sans-serif;">We are happy to hear you from.</h4>
+                  <a class="feedBack" href="mailto:satyanarayandalei8@gmail.com"> Click to give us feedback </a>
+                  <a href="http://crunchysmile.github.io/personal-website/">About The author</a>
+              </div>
+        </footer>
+    <script src="index.js"></script>
+</body>
+</html>
